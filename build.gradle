@@ -22,7 +22,7 @@ apply plugin: 'maven-publish'
 apply plugin: "com.wynprice.cursemaven"
 
 version = '1.16.5-0.001'
-group = 'harmonised.fwoaty-hitpowowoints'
+group = 'harmonised.fwoaty_hitpowowoints'
 archivesBaseName = 'Fwoaty Hitpowowoints'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
