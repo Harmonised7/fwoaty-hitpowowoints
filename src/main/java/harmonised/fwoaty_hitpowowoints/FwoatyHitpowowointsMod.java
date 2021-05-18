@@ -2,6 +2,7 @@ package harmonised.fwoaty_hitpowowoints;
 
 import harmonised.fwoaty_hitpowowoints.client.ClientHandler;
 import harmonised.fwoaty_hitpowowoints.events.EventHandler;
+import harmonised.fwoaty_hitpowowoints.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -11,7 +12,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod( "fwoaty-hitpowowoints" )
+@Mod( Reference.MOD_ID )
 public class FwoatyHitpowowointsMod
 {
     // Directly reference a log4j logger.
